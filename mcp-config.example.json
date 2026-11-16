@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "logisim-evolution": {
+      "command": "C:/path/to/logisim-evolution-mcp/.venv/Scripts/python.exe",
+      "args": [
+        "-m",
+        "logisim_mcp.server"
+      ],
+      "env": {
+        "LOGISIM_WORKSPACE": "C:/path/to/logisim-evolution-mcp/circuits",
+        "LOGISIM_JAR": "C:/path/to/logisim-evolution.jar"
+      }
+    }
+  }
+}

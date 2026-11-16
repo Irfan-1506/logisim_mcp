@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.bak
+dist/
+circuits/
+
+# Local configuration and credentials
+mcp-config.json
+.env
+.env.*
+!.env.example
+*.log
