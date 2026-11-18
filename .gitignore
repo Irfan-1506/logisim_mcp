@@ -1,13 +1,12 @@
-.venv/
-__pycache__/
-*.pyc
-*.bak
+node_modules/
 dist/
-circuits/
-
-# Local configuration and credentials
-mcp-config.json
+*.log
+.logisim-mcp/
+.*.mcp.lock
 .env
 .env.*
-!.env.example
-*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.tmp

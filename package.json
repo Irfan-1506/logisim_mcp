@@ -1,0 +1,30 @@
+{
+  "name": "logisim-evolution-mcp-server",
+  "version": "0.4.0",
+  "description": "Local MCP server for inspecting, editing, validating, simulating, and opening Logisim-evolution projects",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "install:skill": "node scripts/install-opencode-skill.mjs",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test dist/**/*.test.js",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "logisim-evolution",
+    "mcp",
+    "digital-logic",
+    "circuit-simulation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@xmldom/xmldom": "^0.9.10",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.3"
+  }
+}
